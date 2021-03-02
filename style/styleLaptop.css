@@ -1,0 +1,49 @@
+body {
+    padding: 30px;
+    font-size: 25px;
+}
+
+.container {
+    min-width: 90vw;
+    padding: 40px;
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-size: 55px;
+}
+
+.addSomeTask {
+    justify-content: space-around;
+}
+
+.userTaskValue {
+    width: 320px;
+    padding: 8px 0;
+    font-size: 25px;
+}
+
+.btnCont {
+    width: 170px;
+}
+
+.addNewTaskBtn, .clearAll {
+    width: 170px;
+    height: 40px;
+    font-size: 23px;
+}
+
+.addNewTaskBtn {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 0;
+}
+
+.clearAll {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 30px;
+}
+
+.material-icons {
+    font-size: 40px;
+    pointer-events: none;
+}

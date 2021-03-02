@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sulphur+Point&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" media="screen and (min-width:801px) and (max-width: 1030px)" href="style/styleLaptop.css">
+    <link rel="stylesheet" media="screen and (min-width:551px) and (max-width: 801px)" href="style/styleTablet.css">
+    <link rel="stylesheet" media="screen and (min-width:351px) and (max-width: 550px)" href="style/styleMobile.css">
+    <link rel="stylesheet" media="screen and (max-width: 350px)" href="style/styleSmallMob.css">
+    <title>My To Do List</title>
+</head>
+
+<body>
+
+<h1>My To Do List</h1>
+
+<div class="container">
+    <div class="addSomeTask">
+        <input type="text" class="userTaskValue" placeholder="What is your next task ?" />
+        <div class="btnCont">
+            <button class="addNewTaskBtn">Add Tasks</button>
+            <button class="clearAll">Clear all</button>
+        </div>
+    </div>
+
+    <div class="listTasks"></div>
+</div>  
+
+<script src="script.js"></script> 
+</body>
+</html>

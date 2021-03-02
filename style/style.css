@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+body {
+    /* set min-heigth to expand linear gradient and not have multiple linear gradient */
+    min-height: 100vh; 
+
+    background: linear-gradient(to bottom, #fe7e5f, #fe986c, #feb37a);
+    color: white;
+
+    font-size: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.container {
+    min-width: 60vw;
+
+    padding: 40px 50px;
+
+    background-color: rgba(255,255,255,0.01);
+    -webkit-box-shadow: 0px 14px 42px 4px rgba(0,0,0,0.2);
+    box-shadow: 0px 14px 42px 4px rgba(0,0,0,0.2);
+
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+h1 {
+    margin-bottom: 50px;
+    
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.addSomeTask {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userTaskValue {
+    width: 400px;
+
+    padding: 10px 0;
+    margin-right: 30px;
+
+    font-size: 30px;
+
+    background-color: transparent;
+    color: white;
+
+    outline: none;
+    border: none;
+    border-bottom: #ffd8ba 1px solid !important;
+}
+
+.userTaskValue::placeholder {
+    color: rgba(255,255,255,0.5);
+}
+
+.btnCont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.addNewTaskBtn, .clearAll {
+    width: 200px;
+    height: 50px;
+
+    background-color: rgba(254,179,122,0.5);
+    color: white;
+
+    border: none;
+    outline: none;
+
+    font-size: 30px;
+}
+
+.addNewTaskBtn {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 10px;
+}
+
+.clearAll {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 30px;
+}
+
+
+.task {
+    width: 85%;
+    margin: 0 auto;
+        
+    margin-bottom: 10px 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task:first-child {
+    margin-top: 40px;
+}
+
+.deleteCheckBtn > button {
+    background-color: transparent;
+
+    outline: none;
+    border: none;
+}
+
+.done {
+    color: rgb(239, 255, 196);
+}
+.delete {
+    color: #fff06a;
+}
+.completedTask {
+    color: rgb(187, 255, 0);
+}
+
+.material-icons {
+    font-size: 50px;
+    pointer-events: none;
+}

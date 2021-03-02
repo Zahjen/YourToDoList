@@ -1,0 +1,60 @@
+body {
+    font-size: 20px;
+    padding: 50px;
+}
+
+.container {
+    min-width: 90vw;
+    padding: 30px;
+
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.addSomeTask {
+    justify-content: space-around;
+}
+
+.userTaskValue {
+    width: 280px;
+    padding: 5px 0;
+    font-size: 20px;
+}
+
+.btnCont {
+    width: 140px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.addNewTaskBtn, .clearAll {
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.addNewTaskBtn {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 0;
+}
+
+.clearAll {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 20px;
+}
+
+.material-icons {
+    font-size: 30px;
+    pointer-events: none;
+}
