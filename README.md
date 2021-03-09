@@ -1,4 +1,4 @@
-# YourToDoList
+# Your To Do List
 
 Hi and welcome! Here you could find a to do list. YOUR to do list! 
 
